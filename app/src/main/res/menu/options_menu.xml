@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/File"
+
+        android:icon="@drawable/play"
+        android:title="@string/file"
+        >
+        <menu>
+            <item
+                android:id="@+id/ne"
+                android:title="New" />
+            <item
+                android:id="@+id/save"
+                android:title="Save" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/Edit"
+        android:title="@string/edit" />
+    <item
+        android:id="@+id/View"
+        android:title="@string/view" />
+
+</menu>
